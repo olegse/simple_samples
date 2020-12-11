@@ -1,0 +1,19 @@
+[proxmox]
+px0001
+px0002
+px0003
+
+[mysql]
+mysql-main
+mysql-backup
+mysql-test
+mysql-local
+
+[dns]
+dns-primary
+dns-secondary
+dns-tertiary
+
+[testing]
+ds4871                ansible_ssh_host=81.128.34.27     ansible_port=222  
+ds6265                ansible_ssh_host=200.174.148.116  ansible_port=222 
